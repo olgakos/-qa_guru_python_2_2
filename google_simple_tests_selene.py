@@ -31,6 +31,5 @@ def test_google_positive(browser_open_setting):
 
 def test_google_negative(browser_open_setting2):
     # browser.open('https://google.com')
-    browser.element('[name="q"]').should(be.blank).type('selene').press_enter()
-    #browser.element('[id="search"]').should(have.text('To be, or not to be'))
-    browser.element('[id="search"]').should(have.no.text('To be, or not to be'))
+    browser.element('[name="q"]').should(be.blank).type('HouseTargaryn123').press_enter()
+    browser.element('#topstuff').should(have.text(f'По запросу HouseTargaryn123 ничего не найдено. '))
