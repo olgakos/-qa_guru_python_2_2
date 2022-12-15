@@ -1,4 +1,4 @@
-# qa_guru_python_2_2_Google
+# qa_guru_python_2_02_Google
 Google test simple example (with Selene)
 
 <h3>Задача:</h3>
@@ -18,3 +18,4 @@ Google test simple example (with Selene)
 
 ---------
 2022-09-22 v2
+2022-12-15 v3 fix names.
