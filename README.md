@@ -1,4 +1,4 @@
-# qa_guru_python_2_2_Google
+# qa_guru_python_2_02_Google
 Google test simple example (with Selene)
 
 <h3>Задача:</h3>
